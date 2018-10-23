@@ -23,3 +23,6 @@ The script `compute_pairwise_sim.py` saves pair-wise similarities for attribute 
 
 The script `compute_rule_list_sim.py` saves results to:
 * [results.csv](results.csv)
+
+## Sample datasets
+The scripts come with some results of a proof-of-concept user study on UCI datasets used in the Gabriel et al paper. These are stored in the data folder.
