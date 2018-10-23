@@ -1,0 +1,13 @@
+Task age() and size() = inflated()
+Rules count 8
+Rules in Rule clipboard 0
+Export mode all task rules
+
+ => inflated(T) [conf=0.583333,supp=0.583333]
+age(CHILD) => inflated(F) [conf=1,supp=0.25]
+size(SMALL) => inflated(T) [conf=0.6,supp=0.25]
+size(LARGE) => inflated(T) [conf=0.571429,supp=0.333333]
+age(ADULT) => inflated(T) [conf=0.777778,supp=0.583333]
+size(LARGE) & age(CHILD) => inflated(F) [conf=1,supp=0.166667]
+size(SMALL) & age(ADULT) => inflated(T) [conf=0.75,supp=0.25]
+size(LARGE) & age(ADULT) => inflated(T) [conf=0.8,supp=0.333333]

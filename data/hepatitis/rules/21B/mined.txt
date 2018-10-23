@@ -1,0 +1,21 @@
+Rule set: hepatitis-train 2018-10-11 13:02:33
+Rules count: 18
+
+MALAISE(no) & SPLEEN_PALPABLE(no) & VARICES(no) => Class(LIVE) [conf=1,supp=0.462366]
+MALAISE(no) & SPIDERS(no) => Class(LIVE) [conf=1,supp=0.451613]
+ANOREXIA(no) & LIVER_BIG(yes) & MALAISE(no) & VARICES(no) => Class(LIVE) [conf=1,supp=0.419355]
+ASCITES(no) & LIVER_FIRM(no) & SPIDERS(no) & SPLEEN_PALPABLE(no) => Class(LIVE) [conf=1,supp=0.387097]
+HISTOLOGY(no) & LIVER_FIRM(no) & SPIDERS(no) => Class(LIVE) [conf=1,supp=0.333333]
+ASCITES(no) & SPLEEN_PALPABLE(no) & STEROID(yes) & VARICES(no) => Class(LIVE) [conf=1,supp=0.333333]
+ANOREXIA(no) & HISTOLOGY(no) & LIVER_FIRM(no) => Class(LIVE) [conf=1,supp=0.322581]
+ANTIVIRALS(no) & HISTOLOGY(no) & LIVER_BIG(yes) & SPIDERS(no) => Class(LIVE) [conf=1,supp=0.311828]
+FATIGUE(no) & HISTOLOGY(no) => Class(LIVE) [conf=1,supp=0.268817]
+ANOREXIA(no) & ASCITES(no) & MALAISE(no) & STEROID(no) => Class(LIVE) [conf=1,supp=0.225806]
+ASCITES(no) & SGOT([30.5,50.0)) => Class(LIVE) [conf=1,supp=0.193548]
+AGE([7.0,29.0)) => Class(LIVE) [conf=1,supp=0.182796]
+ASCITES(no) & BILIRUBIN([0.4,0.75)) & SPIDERS(no) => Class(LIVE) [conf=1,supp=0.182796]
+BILIRUBIN([0.95,1.1)) & MALAISE(no) => Class(LIVE) [conf=1,supp=0.172043]
+ALBUMIN([4.35,5.3]) => Class(LIVE) [conf=1,supp=0.16129]
+ALK_PHOSPHATE([81.5,87.0)) & SPIDERS(no) => Class(LIVE) [conf=1,supp=0.11828]
+AGE([35.5,43.0)) & ANTIVIRALS(no) & SPLEEN_PALPABLE(no) => Class(LIVE) [conf=1,supp=0.11828]
+* => Class(DIE) [conf=0.215054,supp=0.215054]

@@ -1,0 +1,21 @@
+Rule set: flag-train 2018-10-11 12:59:26
+Rules count: 18
+
+language([1.0,1.5)) => religion([0.5,1.5)) [conf=1,supp=0.163793]
+red(1) & white(1) => religion([0.5,1.5)) [conf=1,supp=0.12069]
+stripes([0.0,0.5)) & blue(1) => religion([0.5,1.5)) [conf=1,supp=0.12931]
+language([1.5,3.5)) => religion([0.0,0.5)) [conf=1,supp=0.103448]
+language([1.0,1.5)) => religion([0.5,1.5)) [conf=1,supp=0.12069]
+blue(1) & colours([4.5,8.0]) => religion([0.5,1.5)) [conf=1,supp=0.0775862]
+landmass([5.5,6.0]) & population([0.0,0.5)) => religion([0.5,1.5)) [conf=1,supp=0.0689655]
+landmass([3.5,4.5)) & language([9.5,10.0]) => religion([2.5,5.5)) [conf=1,supp=0.0603448]
+landmass([4.5,5.5)) & mainhue(red) => religion([1.5,2.5)) [conf=1,supp=0.0517241]
+topleft(blue) & sunstars([0.0,0.5)) => religion([0.0,0.5)) [conf=1,supp=0.0431034]
+landmass([1.5,3.5)) & language([3.5,6.5)) => religion([5.5,7.0]) [conf=1,supp=0.0258621]
+sunstars([0.0,0.5)) & population([55.0,1008.0]) => religion([1.5,2.5)) [conf=1,supp=0.0258621]
+population([11.5,55.0)) & language([9.5,10.0]) => religion([2.5,5.5)) [conf=1,supp=0.0344828]
+landmass([3.5,4.5)) & area([0.5,30.5)) => religion([2.5,5.5)) [conf=1,supp=0.0431034]
+zone(1) & sunstars([0.5,1.5)) => religion([5.5,7.0]) [conf=1,supp=0.0344828]
+landmass([3.5,4.5)) & stripes([0.0,0.5)) => religion([1.5,2.5)) [conf=1,supp=0.0344828]
+landmass([4.5,5.5)) & topleft(red) => religion([5.5,7.0]) [conf=1,supp=0.0344828]
+sunstars([0.5,1.5)) & colours([1.0,2.5)) => religion([5.5,7.0]) [conf=1,supp=0.0344828]

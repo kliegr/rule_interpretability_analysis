@@ -1,0 +1,19 @@
+Rule set: baloons-adult+stretch-train 2018-10-11 13:00:27
+Rules count: 16
+
+color(YELLOW) => inflated(F) [conf=0.5,supp=0.25]
+size(SMALL) => inflated(T) [conf=0.6,supp=0.25]
+color(YELLOW) => inflated(T) [conf=0.5,supp=0.25]
+size(LARGE) => inflated(T) [conf=0.571429,supp=0.333333]
+act(STRETCH) => inflated(T) [conf=0.875,supp=0.583333]
+age(ADULT) => inflated(T) [conf=0.777778,supp=0.583333]
+act(DIP) => inflated(F) [conf=1,supp=0.333333]
+color(PURPLE) => inflated(T) [conf=0.666667,supp=0.333333]
+* => inflated(T) [conf=0.583333,supp=0.583333]
+age(CHILD) => inflated(F) [conf=1,supp=0.25]
+size(SMALL) => inflated(T) [conf=0.6,supp=0.25]
+size(LARGE) => inflated(T) [conf=0.571429,supp=0.333333]
+age(ADULT) => inflated(T) [conf=0.777778,supp=0.583333]
+size(LARGE) & age(CHILD) => inflated(F) [conf=1,supp=0.166667]
+size(SMALL) & age(ADULT) => inflated(T) [conf=0.75,supp=0.25]
+size(LARGE) & age(ADULT) => inflated(T) [conf=0.8,supp=0.333333]

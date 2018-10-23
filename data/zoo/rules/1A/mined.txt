@@ -1,0 +1,12 @@
+﻿Task: airborne(*) and aquatic(*) and backbone(*) and breathes(*) and catsize(*) and domestic(*) and eggs(*) and feathers(*) and fins(*) and hair(*) and legs(*) and milk(*) and tail(*) and predator(*) and toothed(*) and venomous(*) => class(*)
+Rules count: 8
+Rules in Rule clipboard: 0
+
+milk(True) => class(mammal) [conf=1,supp=0.416667]
+feathers(True) => class(bird) [conf=1,supp=0.183333]
+breathes(False) & fins(True) => class(fish) [conf=1,supp=0.1]
+legs([4.5,8.0]) & aquatic(False) => class(insect) [conf=1,supp=0.0833333]
+backbone(False) & breathes(False) => class(invertebrate) [conf=1,supp=0.0833333]
+legs([0.0,1.0)) & backbone(False) => class(invertebrate) [conf=1,supp=0.05]
+legs([3.0,4.5)) & aquatic(True) & hair(False) => class(amphibian) [conf=1,supp=0.05]
+* => class(reptile) [conf=0.0666667,supp=0.0666667]

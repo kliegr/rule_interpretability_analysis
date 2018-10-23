@@ -1,0 +1,11 @@
+Rule set: zoo-train 2018-10-11 13:01:21
+Rules count: 8
+
+milk(True) => class(mammal) [conf=1,supp=0.416667]
+feathers(True) => class(bird) [conf=1,supp=0.183333]
+fins(True) & breathes(False) => class(fish) [conf=1,supp=0.1]
+legs([4.5,8.0]) & aquatic(False) => class(insect) [conf=1,supp=0.0833333]
+backbone(False) & breathes(False) => class(invertebrate) [conf=1,supp=0.0833333]
+legs([0.0,1.0)) & backbone(False) => class(invertebrate) [conf=1,supp=0.05]
+hair(False) & legs([3.0,4.5)) & aquatic(True) => class(amphibian) [conf=1,supp=0.05]
+* => class(reptile) [conf=0.0666667,supp=0.0666667]
