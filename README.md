@@ -1,4 +1,4 @@
-# rule_interpretability_analysis
+# Rule interpretability analysis (including semantic coherence)
 This repository presents a collection of scripts for analyzing results of user experiments aimed at evaluating interepretability of inductively learnt rules.
 
 In addition to basic interpretability metrics like average antecedent length, this library computes *semantic coherence* using method described in:
@@ -22,4 +22,4 @@ The script `compute_pairwise_sim.py` saves pair-wise similarities for attribute 
 * data/{datasetname}/word-pairs.csv
 
 The script `compute_rule_list_sim.py` saves results to:
-* (results.csv)[results.csv]
+* [results.csv](results.csv)
